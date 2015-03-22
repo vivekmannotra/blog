@@ -8,3 +8,41 @@
   padding: 40px;
   text-align: center;
 }
+.center table {
+    width: 100%;
+  border: 1px white solid;
+  background-color: white;
+}
+.center table th {
+    border-bottom: 1px #ccc solid;
+  height: 30px;
+  min-width: 60px;
+}
+.center table td {
+    font-size: 14px;
+  color: #8E8E8E;
+  padding: 5px;
+  border-bottom: 1px #ccc solid;
+}
+.center button {
+  width: 80px;
+  height: 30px;
+  font-size: 12px;
+    cursor: pointer;
+  color: #777676;
+  border-radius: 10px;
+  background: linear-gradient(#FFFFFF, rgb(216, 216, 216));
+  border: 1px #ccc solid;
+}
+.center button:hover {
+  background: linear-gradient(#FFFFFF, rgb(203, 210, 255));
+}
+.center .add-new {
+margin-top: 20px;
+}
+.center button.small {
+  width: 45px;
+  height: 15px;
+  font-size: 10px;
+  border-radius: 5px;
+}
