@@ -46,3 +46,22 @@ margin-top: 20px;
   font-size: 10px;
   border-radius: 5px;
 }
+input[id="article_title"], input[id="comment_commenter"] {
+  border: 1px #ccc solid;
+  border-radius: 5px;
+  height: 20px;
+  font-family: Arial;
+  padding: 5px;
+  font-size: 14px;
+  color: #8C8C8C;
+}
+textarea#article_text, textarea#comment_body {
+  border: 1px #ccc solid;
+  border-radius: 5px;
+  height: 100px;
+  width: 200px;
+  font-family: Arial;
+  padding: 5px;
+  font-size: 14px;
+  color: #7F7F7F;
+}
