@@ -1,0 +1,10 @@
+.center{
+     margin: auto;
+  background-color: #FFF4BA;
+  height: 600px;
+  width: 600px;
+  font-family: Arial;
+  color: #E75F5F;
+  padding: 40px;
+  text-align: center;
+}

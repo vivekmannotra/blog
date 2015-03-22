@@ -1,3 +1,4 @@
+<div class="center">
 <%= form_for :article, url: articles_path do |f| %>
  
   <% if @article.errors.any? %>
@@ -31,3 +32,4 @@
 <% end %>
  
 <%= link_to 'Back', articles_path %>
+</div>
